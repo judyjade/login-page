@@ -1,0 +1,65 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background: url(fundo.jpg);
+    font-size: 16px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+nav {
+    background-color: rgb(231, 179, 194);
+    padding: 10px;
+    display: flex;
+    justify-content: space-around;
+    border-radius: 10px;
+}
+
+.link-ale {
+    color: white;
+    text-decoration: none;
+    transition: 0.5s all;
+}
+
+.link-ale:hover {
+    font-size: 18px;
+}
+
+.titulo {
+    margin: 15px 0 70px 0;
+}
+
+.formulario {
+    border: 3px blanchedalmond solid;
+    border-radius: 10px;
+    margin: 100px auto; 
+    width: 20%;
+    padding: 50px;
+}
+
+.espaco {
+    padding: 9px;
+    margin: 6px;
+    text-align: center;
+    border-radius: 5px;
+}
+
+.botao {
+    padding: 15px 60px;
+    margin: 30px 65px;
+    background-color:  rgb(253, 227, 234);
+    border-radius: 8px;
+    width: 160px;
+    transition: 0.5s all;
+}
+
+.botao:hover {
+    width: 180px;
+}
+
+.fundo-caixa {
+    background: url(fundo.jpg);
+    filter: blur(4px);
+}
