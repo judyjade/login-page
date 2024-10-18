@@ -37,6 +37,7 @@ nav {
     margin: 100px auto; 
     width: 20%;
     padding: 50px;
+    backdrop-filter: blur(5px);
 }
 
 .espaco {
@@ -62,4 +63,43 @@ nav {
 .fundo-caixa {
     background: url(fundo.jpg);
     filter: blur(4px);
+}
+
+@media screen and (max-width: 480px) {
+    nav {
+        padding: 20px;
+    }
+
+    .titulo {
+        margin: 15px 0 70px 0;
+    }
+    
+    .formulario {
+        border: 3px blanchedalmond solid;
+        border-radius: 10px;
+        margin: 100px 15px; 
+        width: 20%;
+        padding: 50px 150px 50px 40px;
+        backdrop-filter: blur(5px);
+    }
+    
+    .espaco {
+        padding: 9px;
+        margin: 5px auto;
+        border-radius: 5px;
+    }
+    
+    .botao {
+        padding: 15px 60px;
+        margin: 30px 5px;
+        background-color:  rgb(253, 227, 234);
+        border-radius: 8px;
+        width: 160px;
+        transition: 0.5s all;
+    }
+    
+    .botao:hover {
+        width: 180px;
+    }
+        
 }
